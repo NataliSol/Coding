@@ -10,7 +10,6 @@ public class Main {
         addNewProductFirst("яблука", productList);
         addNewProductFirst("хліб", productList);
         printAllProducts(productList);
-        System.out.println("lllllll");
         addProductByPosition(productList, 2, "second position");
         printAllProducts(productList);
         removeByName(productList,"яблука");
